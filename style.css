@@ -89,6 +89,11 @@ position: absolute;
     background-color: #2A5B50;
     color: #fff;
 }
+.technnbtn button.clicked
+{
+    background-color: #2A5B50;
+    color: #fff;
+}
 .technnbtn button:hover {
   background-color: #e2e8e7;
 }
@@ -173,11 +178,16 @@ position: absolute;
     border: none;
     outline: none;
 }
+
 .Senioritybox button:hover
 {
     opacity: .6;
 }
 /* involemnt */
+.Senioritybox button.active {
+    background-color: #2a5b50;
+    color: white;
+}
 
 .Involvement
 {
@@ -209,6 +219,11 @@ position: absolute;
 {
     opacity: .6;
 }
+.Involvementbox button.active {
+    background-color: #2a5b50;
+    color: white;
+}
+
 
 /*Budget  */
 
