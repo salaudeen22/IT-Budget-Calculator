@@ -263,6 +263,17 @@ main {
 .rght {
   width: 50%;
 }
+#book {
+  width: 20vw;
+  padding: 10px 30px;
+  margin-left: 30%;
+  border-radius: 40px;
+  background-color: #2a5b50;
+  color: white;
+
+  
+}
+
 @media only screen and (max-width: 480px) {
   .background {
     z-index: -1;
@@ -389,6 +400,16 @@ main {
 
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     background-color: #ffffff;
+  }
+  #book {
+    width: 60vw;
+    padding: 10px 30px;
+    margin-left: 40%;
+    border-radius: 40px;
+    background-color: #2a5b50;
+    color: white;
+  
+    
   }
 }
 @media only screen and (min-width: 480px) and(max-width:990px) {
