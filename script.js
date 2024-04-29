@@ -101,3 +101,17 @@ involvementButtons.forEach(btn => btn.addEventListener('click', () => {
 
 calculateBudget();
 
+function openCalendar() {
+    
+    var name = document.getElementById("nameInput").value;
+    var email = document.getElementById("emailInput").value;
+
+    
+    if (name && email) {
+       
+        window.location.href = 'calendar.html';
+    } else {
+      
+        alert("Please fill in both Name and Email fields.");
+    }
+}
